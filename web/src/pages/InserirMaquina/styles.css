@@ -1,0 +1,44 @@
+.container_insererirmaquina{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+#inserir_maq_form {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 80vw;
+  margin-bottom: 64px;
+  flex-direction: column;
+}
+
+#inserir_maq_title {
+  width: 100%;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 16px 0 16px 0;
+}
+
+#inserir_maq_form > input {
+  margin-top: 4px;
+  padding: 8px;
+  border: 1px solid rgb(110, 99, 99);
+  border-radius: 4px;
+}
+
+#inserir_maq_form > input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 4px #719ECE;
+}
+
+#inserir_maq_form > button {
+  padding: 8px;
+  margin-top: 16px;
+}
+
+#inserir_maq_form > select {
+  padding: 8px;
+  margin: 1px;
+}

@@ -1,0 +1,75 @@
+#login_container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+}
+
+#login_title{
+  font-size: 24px;
+  align-self: center;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+
+#logo_container{
+  display: flex;
+  margin-top: 42px;
+  padding: 32px;
+  justify-content: space-between;
+}
+
+#login_logo {
+  align-self: center;
+  width: 100px;
+  margin-top: -50px;
+  margin-bottom: 70px;
+}
+
+#login_container>form {
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  margin: 8px 0 8px 0;
+}
+
+#login_container>form>label {
+  font-size: 14px;
+}
+
+#login_container>form>input {
+  padding: 16px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#login_container>form>input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 4px #719ECE;
+}
+
+#login_form_buttons {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+#login_form_buttons>button {
+  width: 100%;
+  margin-top: 32px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 12px 40px 12px 40px
+}
+
+#login_nova_conta {
+  display: flex;
+  justify-content: center;
+}

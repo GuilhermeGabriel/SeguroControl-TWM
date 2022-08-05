@@ -1,0 +1,59 @@
+#register_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#register_container > form > h2 {
+  width: 250px; 
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+#register_container > form {
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  margin: 8px 0 8px 0;
+}
+
+#register_container > form > label {
+  font-size: 14px;
+}
+
+#register_container > form > input {
+  padding: 16px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+}
+
+#register_container > form > input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 4px #719ECE;
+}
+
+#register_form_buttons {
+  display: flex;
+  margin-bottom: 90px;
+  justify-content: end;
+}
+
+#register_select_tipo{
+  padding: 16px;
+  border: 1px solid #ccc;
+}
+
+#register_form_buttons > button {
+  margin: 8px 0 0 8px;
+  padding: 12px 40px 12px 40px
+}
+
+#register_nova_conta {
+  display: flex;
+  justify-content: center;
+}

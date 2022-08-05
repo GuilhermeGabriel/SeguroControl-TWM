@@ -1,0 +1,32 @@
+#img_comment_upload {
+  height: 300px;
+  margin-top: 16px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  object-fit: contain;
+  border: 1px solid #eee;
+}
+
+#comment_field{
+  margin-bottom: 32px;
+  border: 1px #ccc solid;
+}
+
+#title_commer_add{
+  color: #43a047;
+  font-weight: bold;
+}
+
+#inserir_desc_title{
+  color: #43a047;
+}
+
+#info_ped_com{
+  margin-left:8px;
+}
+
+#resp_comme{
+  font-size: 16px;
+  font-family: Roboto;
+  color: #43a047;
+}

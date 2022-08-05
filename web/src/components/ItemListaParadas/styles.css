@@ -1,0 +1,54 @@
+#container_itemlista_paradas{
+  margin: 8px;
+  padding: 16px;
+  border: solid 1px #eee;
+  border-radius: 4px;
+  transition-duration: 0.1s;
+  box-shadow: 1px 1px 10px #eee;
+}
+
+#container_itemlista_paradas:hover{
+  background: #eee;
+  cursor: pointer;
+}
+
+#item_lista_title{
+  margin-bottom: 8px;
+}
+
+.item_parada_info{
+  display: flex;
+  max-width: 500px;
+  word-wrap: break-word;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.item_parada_info > b {
+  margin-right: 8px;
+}
+
+.item_parada_info > svg{
+  color: #43a047;
+  margin-right: 8px;
+}
+
+#home_form > select{
+  padding: 4px;
+}
+
+#item_lista_paradas_horas{
+  margin-left: -8px;
+  margin-bottom: 8px;
+}
+
+#item_lista_paradas_horas > b {
+  display: flex;
+}
+
+#item_lista_paradas_horas > b > svg {
+  font-size: 24px;
+  color: #43a047;
+  margin-right: 8px;
+  margin-left: 8px;
+}
